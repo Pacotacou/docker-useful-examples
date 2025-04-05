@@ -6,7 +6,7 @@ COPY . .
 
 RUN npm install 
 
-RUN REACT_APP_BACKEND_URL=http://localhost:8000 npm run build 
+RUN REACT_APP_BACKEND_URL=http://localhost:80/api npm run build 
 
 RUN npm install -g serve 
 

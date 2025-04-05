@@ -10,6 +10,6 @@ RUN go build
  
 ENV PORT=8000
 
-ENV REQUEST_ORIGIN=http://localhost:5000
+ENV REQUEST_ORIGIN=http://localhost:80
 
 ENTRYPOINT ["./server"]
